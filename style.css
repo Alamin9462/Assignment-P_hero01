@@ -1,0 +1,146 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+.clearfix::after{
+  content: " " ;
+  display: block;
+  clear: both;
+}
+/* Top- Bannar  section */
+
+.top-bannar{
+  background: url(./images/banner/banner1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 600px;
+
+}
+.text-align{
+  text-align: right;
+  
+  
+}
+.bannar-caption{
+  padding: 225px 50px;
+  margin-right: 68px;
+ 
+}
+.bannar-caption h1{
+  font-weight: bolder;
+    font-size: 45px;
+    line-height: 57px;
+    color: rgba(0, 0, 0, 0.925);
+}
+.bannar-caption{
+    line-height: 20px;
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.658);
+    font-size: 12px;
+ 
+}
+
+
+.btn-button{
+  background-color: rgba(214, 97, 19, 0.979);
+  color: #fff;
+  padding: 10px 12px;
+  border-style: none;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 5px;
+  margin-top: 15px;
+  letter-spacing: 1px;
+}
+/* <!-- About-section css --> */
+
+.About-section{
+   margin-top: 90px;
+}
+.my-image{
+  width: 45%;
+  float: left;
+  /* background-color: chartreuse;
+  height: 120px;
+  border-radius: 50%; */
+  
+
+}
+.content{
+  float: right;
+  align-items: center;
+  width: 40%;
+  margin-top: 250px;
+  margin-right: 30px;
+  
+}
+.content h2{
+  font-size: 38px;
+  font-weight: 800;
+
+}
+.content p{
+     font-size: 15px;
+     margin-top: 10px;
+     line-height: 22px;
+     color: rgba(0, 0, 0, 0.822);
+}
+
+
+
+.list-item{
+  list-style: none;
+  margin-top: 15px ;
+  line-height: 24px;
+}
+.list-item li i{
+  color: green;
+}
+.word-space{
+  margin-left: 10px;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.822);
+}
+/* ...............icon box........... */
+
+.services-item{
+
+  /* text-align: center; */
+}
+.fixd-width{
+  width: 1300px;
+  margin: auto;
+  text-align: center;
+ 
+  
+}
+
+.services-item h2{
+ margin-top: 160px;
+ text-align: center;
+ padding: 35px 0;
+ font-size: 35px;
+ font-weight: bold;
+
+}
+.icon-box{
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 20px 15px;
+  border: 1px solid rgba(77, 70, 70, 0.651);
+  margin-left: 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+
+}
+.bannar-watch{
+  background-image: url(./images/watch.png);
+  width: auto;
+  height: 200px;
+  margin-top: 100px;
+}
+
+  
